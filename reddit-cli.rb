@@ -1,6 +1,5 @@
 require './lib/reddit_api'
 require 'terminal-table'
-require 'pry'
 
 subreddit = ARGV[0]
 

@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+RedditApi	lib/reddit_api.rb	/^class RedditApi$/;"	c
+RedditCli	lib/reddit-cli.rb	/^class RedditCli $/;"	c
+initialize	lib/reddit-cli.rb	/^    def initialize(api) $/;"	f	class:RedditCli
+initialize	lib/reddit_api.rb	/^    def initialize(subreddit)$/;"	f	class:RedditApi
+next	lib/reddit_api.rb	/^    def next $/;"	f	class:RedditApi
+print_stories	lib/reddit-cli.rb	/^    def print_stories$/;"	f	class:RedditCli
+process_request	lib/reddit_api.rb	/^    def process_request $/;"	f	class:RedditApi
+prompt	lib/reddit-cli.rb	/^    def prompt $/;"	f	class:RedditCli
+request	lib/reddit_api.rb	/^    def request $/;"	f	class:RedditApi

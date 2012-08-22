@@ -7,7 +7,7 @@ class RedditApi
     attr_reader :url, :stories
     def initialize(subreddit)
         @subreddit = subreddit
-        @after ||= ""
+        @after = ""
         @url = "#{REDDIT_URL}#{subreddit}/.json?after=#{@after}"
         request
         process_request
